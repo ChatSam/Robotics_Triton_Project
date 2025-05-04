@@ -1,0 +1,17 @@
+<launch>
+  <!-- Start the robot’s base drivers -->
+  <include file="$(find stingray_camera)/launch/triton.launch" />
+
+  <!-- Run SLAM Toolbox -->
+  <node name="slam_toolbox" pkg="slam_toolbox" type="sync_slam_toolbox_node" output="screen">
+    <param name="use_sim_time" value="false" />
+    <param name="odom_frame" value="odom" />
+    <param name="map_frame" value="map" />
+    <param name="base_frame" value="base_link" />
+    <param name="scan_topic" value="/scan" />
+    <rosparam command="load" file="$(find slam_toolbox)/config/mapper_params_online_sync.yaml" />
+  </node>
+
+  <!-- RViz for visualization -->
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find slam_toolbox)/rviz/slam_toolbox.rviz" />
+</launch>
