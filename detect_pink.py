@@ -41,44 +41,11 @@ rospy.init_node('to_puck', anonymous=True)
 vel_publisher = rospy.Publisher('cmd_vel', Twist, queue_size = 1)
 r = rospy.Rate(60)
 
-# don't need this
-def heading_correction():
-    twist = Twist()
-    print(-rag - c_shift, x_shift, rag - c_shift)
-    if x_shift is None:
-        while x_shift is None and not rospy.is_shutdown():
-            if x_last < 0:
-                twist.angular.z = -angle_vel
-                print("looking [right]")
-            else:
-                twist.angular.z = angle_vel
-                print("looking [left]")
-            r.sleep()
-            vel_publisher.publish(twist)
-        return
-    while not (-rag - c_shift < x_shift and x_shift < rag - c_shift) and not rospy.is_shutdown():
-        print(-rag - c_shift, x_shift, rag - c_shift)
-        if x_shift < 0:
-            twist.angular.z = -angle_vel
-            print("adj right")
-        else:
-            twist.angular.z = angle_vel
-            print("adj left")
-        r.sleep()
-        vel_publisher.publish(twist)
-
-
 def image_listener():
     global bridge
     bridge = CvBridge()
     rospy.Subscriber("/camera/color/image_raw", Image, image_callback)
     while not rospy.is_shutdown():
-        # if not (-rag - c_shift < x_shift and x_shift < rag - c_shift):
-        #     heading_correction()
-        # else:
-        #     twist = Twist()
-        #     twist.linear.x = 0.5
-        #     vel_publisher.publish(twist)
         ### new code here
         twist = Twist()
         if x_shift is None:
