@@ -1,0 +1,15 @@
+version: '3'
+services:
+  triton_noetic:
+    image: triton_noetic
+    build: .
+    volumes:
+      - "/home/triton/cs603-final-project/catkin_ws/src:/catkin_ws/src"
+    network_mode: host
+    privileged: true
+    devices:
+      - /dev:/dev
+    command: /bin/bash -c "tail -f /dev/null"
+    environment:
+      - ROS_MASTER_URI=http://localhost:11311
+      - ROS_IP=10.42.0.189

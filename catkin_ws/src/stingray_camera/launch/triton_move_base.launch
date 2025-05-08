@@ -1,0 +1,21 @@
+<launch>
+
+    <!-- Arguments -->
+    <arg name="map_file" default="$(find stingray_camera)/maps/map.yaml" />
+
+    <!-- Map Server -->
+    <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
+
+    <include file="$(find stingray_camera)/launch/triton_amcl.launch"/>
+
+    <!-- Move Base node from https://wiki.ros.org/navigation/Tutorials/RobotSetup -->
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+        <rosparam file="$(find stingray_camera)/config/costmap/costmap_common_params.yaml" command="load" ns="global_costmap" /> 
+        <rosparam file="$(find stingray_camera)/config/costmap/costmap_common_params.yaml" command="load" ns="local_costmap" />
+        <rosparam file="$(find stingray_camera)/config/costmap/local_costmap_params.yaml" command="load" />
+        <rosparam file="$(find stingray_camera)/config/costmap/global_costmap_params.yaml" command="load" /> 
+        <rosparam file="$(find stingray_camera)/config/base_local_planner_params.yaml" command="load" />
+        <param name="base_global_planner" value="global_planner/GlobalPlanner" />
+    </node>
+
+ </launch>

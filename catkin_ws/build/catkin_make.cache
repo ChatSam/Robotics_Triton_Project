@@ -1,0 +1,2 @@
+rplidar_ros:stingray_camera:triton_mapping
+-DCATKIN_DEVEL_PREFIX=/home/triton/cs603-final-project/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/triton/cs603-final-project/catkin_ws/install -G Unix Makefiles

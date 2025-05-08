@@ -1,0 +1,5 @@
+stingray_camera
+/home/triton/stingray_docker/catkin_ws/devel/.private/stingray_camera/cmake.lock /home/triton/stingray_docker/catkin_ws/devel/./cmake.lock
+/home/triton/stingray_docker/catkin_ws/devel/.private/stingray_camera/lib/pkgconfig/stingray_camera.pc /home/triton/stingray_docker/catkin_ws/devel/lib/pkgconfig/stingray_camera.pc
+/home/triton/stingray_docker/catkin_ws/devel/.private/stingray_camera/share/stingray_camera/cmake/stingray_cameraConfig.cmake /home/triton/stingray_docker/catkin_ws/devel/share/stingray_camera/cmake/stingray_cameraConfig.cmake
+/home/triton/stingray_docker/catkin_ws/devel/.private/stingray_camera/share/stingray_camera/cmake/stingray_cameraConfig-version.cmake /home/triton/stingray_docker/catkin_ws/devel/share/stingray_camera/cmake/stingray_cameraConfig-version.cmake

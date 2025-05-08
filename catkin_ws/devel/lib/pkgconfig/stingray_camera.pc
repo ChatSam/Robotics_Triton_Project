@@ -1,0 +1,8 @@
+prefix=/home/triton/cs603-final-project/catkin_ws/devel
+
+Name: stingray_camera
+Description: Description of stingray_camera
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,12 @@
+[Unit]
+Description=ROS Noetic for the Triton robot
+After=docker.service
+Requires=docker.service
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/docker run --rm triton_noetic
+ExecStop=/usr/bin/docker stop triton_noetic
+
+[Install]
+WantedBy=multi-user.target

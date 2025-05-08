@@ -1,0 +1,7 @@
+<launch>
+
+    <!-- Main Controller Node -->
+    <!-- <node pkg="stingray_camera" type="controller.py" name="controller" /> -->
+    <node pkg="stingray_camera" type="pd_path_planning.py" name="pd_path_planning" />
+
+</launch>

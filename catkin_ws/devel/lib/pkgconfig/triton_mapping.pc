@@ -1,0 +1,8 @@
+prefix=/home/triton/cs603-final-project/catkin_ws/devel
+
+Name: triton_mapping
+Description: Description of triton_mapping
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,22 @@
+<launch>
+  <!-- Arguments -->
+    <arg name="map_file" default="$(find stingray_camera)/maps/map.yaml" />
+
+    <include file="$(find stingray_camera)/launch/triton.launch"/>
+
+    <!-- Map Server -->
+    <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
+    
+    <!-- AMCL -->
+    <include file="$(find stingray_camera)/launch/triton_amcl.launch"/>
+
+    <!-- QR Code Reader from zbar_ros/launch/example.launch -->
+    <node pkg="zbar_ros" type="barcode_reader_node" name="barcode_reader">
+    <param name="throttle_repeated_barcodes" type="double" value="0.0"/>
+    </node>
+
+    <!-- Main Controller Node -->
+    <!-- <node pkg="stingray_camera" type="controller.py" name="controller" /> -->
+    <node pkg="stingray_camera" type="pd_path_planning.py" name="pd_path_planning" />
+
+</launch>
