@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+#Source with modifications: https://github.com/ros-teleop/teleop_twist_keyboard
+
 from __future__ import print_function
 
 import threading
