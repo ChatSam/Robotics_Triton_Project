@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/triton/cs603-final-project/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/triton/Robotics_Triton_Project/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/triton/cs603-final-project/catkin_ws/build
+CMAKE_BINARY_DIR = /home/triton/Robotics_Triton_Project/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/triton/cs603-final-project/catkin_ws/build/CMakeFiles /home/triton/cs603-final-project/catkin_ws/build/stingray_camera/CMakeFiles/progress.marks
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/triton/cs603-final-project/catkin_ws/build/CMakeFiles 0
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles /home/triton/Robotics_Triton_Project/catkin_ws/build/stingray_camera/CMakeFiles/progress.marks
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/clean
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/preinstall
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/preinstall
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 .PHONY : stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ dynamic_reconfigure_generate_messages_cpp: stingray_camera/CMakeFiles/dynamic_re
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_cpp/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule
 .PHONY : stingray_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ bond_generate_messages_lisp: stingray_camera/CMakeFiles/bond_generate_messages_l
 
 # fast build rule for target.
 bond_generate_messages_lisp/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/bond_generate_messages_lisp.dir/build.make stingray_camera/CMakeFiles/bond_generate_messages_lisp.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/bond_generate_messages_lisp.dir/build.make stingray_camera/CMakeFiles/bond_generate_messages_lisp.dir/build
 .PHONY : bond_generate_messages_lisp/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 .PHONY : stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ actionlib_msgs_generate_messages_py: stingray_camera/CMakeFiles/actionlib_msgs_g
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/bond_generate_messages_eus.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/bond_generate_messages_eus.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/bond_generate_messages_eus.dir/rule
 .PHONY : stingray_camera/CMakeFiles/bond_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ bond_generate_messages_eus: stingray_camera/CMakeFiles/bond_generate_messages_eu
 
 # fast build rule for target.
 bond_generate_messages_eus/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/bond_generate_messages_eus.dir/build.make stingray_camera/CMakeFiles/bond_generate_messages_eus.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/bond_generate_messages_eus.dir/build.make stingray_camera/CMakeFiles/bond_generate_messages_eus.dir/build
 .PHONY : bond_generate_messages_eus/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 .PHONY : stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ dynamic_reconfigure_generate_messages_nodejs: stingray_camera/CMakeFiles/dynamic
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_nodejs/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule
 .PHONY : stingray_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ bond_generate_messages_cpp: stingray_camera/CMakeFiles/bond_generate_messages_cp
 
 # fast build rule for target.
 bond_generate_messages_cpp/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/bond_generate_messages_cpp.dir/build.make stingray_camera/CMakeFiles/bond_generate_messages_cpp.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/bond_generate_messages_cpp.dir/build.make stingray_camera/CMakeFiles/bond_generate_messages_cpp.dir/build
 .PHONY : bond_generate_messages_cpp/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule
 .PHONY : stingray_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ nodelet_generate_messages_py: stingray_camera/CMakeFiles/nodelet_generate_messag
 
 # fast build rule for target.
 nodelet_generate_messages_py/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nodelet_generate_messages_py.dir/build.make stingray_camera/CMakeFiles/nodelet_generate_messages_py.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nodelet_generate_messages_py.dir/build.make stingray_camera/CMakeFiles/nodelet_generate_messages_py.dir/build
 .PHONY : nodelet_generate_messages_py/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/bond_generate_messages_nodejs.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/bond_generate_messages_nodejs.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/bond_generate_messages_nodejs.dir/rule
 .PHONY : stingray_camera/CMakeFiles/bond_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ bond_generate_messages_nodejs: stingray_camera/CMakeFiles/bond_generate_messages
 
 # fast build rule for target.
 bond_generate_messages_nodejs/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/bond_generate_messages_nodejs.dir/build.make stingray_camera/CMakeFiles/bond_generate_messages_nodejs.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/bond_generate_messages_nodejs.dir/build.make stingray_camera/CMakeFiles/bond_generate_messages_nodejs.dir/build
 .PHONY : bond_generate_messages_nodejs/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/rule
 .PHONY : stingray_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ realsense2_camera_generate_messages_py: stingray_camera/CMakeFiles/realsense2_ca
 
 # fast build rule for target.
 realsense2_camera_generate_messages_py/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/build.make stingray_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/build.make stingray_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/build
 .PHONY : realsense2_camera_generate_messages_py/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 .PHONY : stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ dynamic_reconfigure_generate_messages_lisp: stingray_camera/CMakeFiles/dynamic_r
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_lisp/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
 .PHONY : stingray_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ nodelet_generate_messages_nodejs: stingray_camera/CMakeFiles/nodelet_generate_me
 
 # fast build rule for target.
 nodelet_generate_messages_nodejs/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make stingray_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make stingray_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
 .PHONY : nodelet_generate_messages_nodejs/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/bond_generate_messages_py.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/bond_generate_messages_py.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/bond_generate_messages_py.dir/rule
 .PHONY : stingray_camera/CMakeFiles/bond_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -344,12 +344,12 @@ bond_generate_messages_py: stingray_camera/CMakeFiles/bond_generate_messages_py.
 
 # fast build rule for target.
 bond_generate_messages_py/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/bond_generate_messages_py.dir/build.make stingray_camera/CMakeFiles/bond_generate_messages_py.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/bond_generate_messages_py.dir/build.make stingray_camera/CMakeFiles/bond_generate_messages_py.dir/build
 .PHONY : bond_generate_messages_py/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 .PHONY : stingray_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ nodelet_generate_messages_cpp: stingray_camera/CMakeFiles/nodelet_generate_messa
 
 # fast build rule for target.
 nodelet_generate_messages_cpp/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make stingray_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make stingray_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build
 .PHONY : nodelet_generate_messages_cpp/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/nodelet_generate_messages_eus.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nodelet_generate_messages_eus.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nodelet_generate_messages_eus.dir/rule
 .PHONY : stingray_camera/CMakeFiles/nodelet_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -374,12 +374,12 @@ nodelet_generate_messages_eus: stingray_camera/CMakeFiles/nodelet_generate_messa
 
 # fast build rule for target.
 nodelet_generate_messages_eus/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nodelet_generate_messages_eus.dir/build.make stingray_camera/CMakeFiles/nodelet_generate_messages_eus.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nodelet_generate_messages_eus.dir/build.make stingray_camera/CMakeFiles/nodelet_generate_messages_eus.dir/build
 .PHONY : nodelet_generate_messages_eus/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/realsense2_camera_generate_messages_lisp.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/realsense2_camera_generate_messages_lisp.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/realsense2_camera_generate_messages_lisp.dir/rule
 .PHONY : stingray_camera/CMakeFiles/realsense2_camera_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -389,12 +389,12 @@ realsense2_camera_generate_messages_lisp: stingray_camera/CMakeFiles/realsense2_
 
 # fast build rule for target.
 realsense2_camera_generate_messages_lisp/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/realsense2_camera_generate_messages_lisp.dir/build.make stingray_camera/CMakeFiles/realsense2_camera_generate_messages_lisp.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/realsense2_camera_generate_messages_lisp.dir/build.make stingray_camera/CMakeFiles/realsense2_camera_generate_messages_lisp.dir/build
 .PHONY : realsense2_camera_generate_messages_lisp/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
 .PHONY : stingray_camera/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -404,12 +404,12 @@ nav_msgs_generate_messages_nodejs: stingray_camera/CMakeFiles/nav_msgs_generate_
 
 # fast build rule for target.
 nav_msgs_generate_messages_nodejs/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make stingray_camera/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make stingray_camera/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
 .PHONY : nav_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/realsense2_camera_generate_messages_nodejs.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/realsense2_camera_generate_messages_nodejs.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/realsense2_camera_generate_messages_nodejs.dir/rule
 .PHONY : stingray_camera/CMakeFiles/realsense2_camera_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -419,12 +419,12 @@ realsense2_camera_generate_messages_nodejs: stingray_camera/CMakeFiles/realsense
 
 # fast build rule for target.
 realsense2_camera_generate_messages_nodejs/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/realsense2_camera_generate_messages_nodejs.dir/build.make stingray_camera/CMakeFiles/realsense2_camera_generate_messages_nodejs.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/realsense2_camera_generate_messages_nodejs.dir/build.make stingray_camera/CMakeFiles/realsense2_camera_generate_messages_nodejs.dir/build
 .PHONY : realsense2_camera_generate_messages_nodejs/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 .PHONY : stingray_camera/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -434,12 +434,12 @@ nav_msgs_generate_messages_lisp: stingray_camera/CMakeFiles/nav_msgs_generate_me
 
 # fast build rule for target.
 nav_msgs_generate_messages_lisp/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make stingray_camera/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make stingray_camera/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
 .PHONY : nav_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/realsense2_camera_generate_messages_eus.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/realsense2_camera_generate_messages_eus.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/realsense2_camera_generate_messages_eus.dir/rule
 .PHONY : stingray_camera/CMakeFiles/realsense2_camera_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -449,12 +449,12 @@ realsense2_camera_generate_messages_eus: stingray_camera/CMakeFiles/realsense2_c
 
 # fast build rule for target.
 realsense2_camera_generate_messages_eus/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/realsense2_camera_generate_messages_eus.dir/build.make stingray_camera/CMakeFiles/realsense2_camera_generate_messages_eus.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/realsense2_camera_generate_messages_eus.dir/build.make stingray_camera/CMakeFiles/realsense2_camera_generate_messages_eus.dir/build
 .PHONY : realsense2_camera_generate_messages_eus/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 .PHONY : stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -464,12 +464,12 @@ dynamic_reconfigure_generate_messages_eus: stingray_camera/CMakeFiles/dynamic_re
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_eus/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_eus/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 .PHONY : stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -479,12 +479,12 @@ dynamic_reconfigure_generate_messages_py: stingray_camera/CMakeFiles/dynamic_rec
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_py/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make stingray_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 .PHONY : stingray_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 
 # Convenience name for target.
@@ -494,12 +494,12 @@ dynamic_reconfigure_gencfg: stingray_camera/CMakeFiles/dynamic_reconfigure_gencf
 
 # fast build rule for target.
 dynamic_reconfigure_gencfg/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make stingray_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make stingray_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 .PHONY : stingray_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -509,12 +509,12 @@ nav_msgs_generate_messages_cpp: stingray_camera/CMakeFiles/nav_msgs_generate_mes
 
 # fast build rule for target.
 nav_msgs_generate_messages_cpp/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make stingray_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make stingray_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
 .PHONY : nav_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
 .PHONY : stingray_camera/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -524,12 +524,12 @@ nav_msgs_generate_messages_eus: stingray_camera/CMakeFiles/nav_msgs_generate_mes
 
 # fast build rule for target.
 nav_msgs_generate_messages_eus/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make stingray_camera/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make stingray_camera/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
 .PHONY : nav_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 .PHONY : stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -539,12 +539,12 @@ actionlib_msgs_generate_messages_cpp: stingray_camera/CMakeFiles/actionlib_msgs_
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_cpp/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 .PHONY : stingray_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -554,12 +554,12 @@ nav_msgs_generate_messages_py: stingray_camera/CMakeFiles/nav_msgs_generate_mess
 
 # fast build rule for target.
 nav_msgs_generate_messages_py/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make stingray_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make stingray_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/build
 .PHONY : nav_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 .PHONY : stingray_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -569,12 +569,12 @@ nodelet_generate_messages_lisp: stingray_camera/CMakeFiles/nodelet_generate_mess
 
 # fast build rule for target.
 nodelet_generate_messages_lisp/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make stingray_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make stingray_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build
 .PHONY : nodelet_generate_messages_lisp/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 .PHONY : stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -584,12 +584,12 @@ actionlib_msgs_generate_messages_eus: stingray_camera/CMakeFiles/actionlib_msgs_
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_eus/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
 .PHONY : actionlib_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 .PHONY : stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -599,12 +599,12 @@ actionlib_msgs_generate_messages_lisp: stingray_camera/CMakeFiles/actionlib_msgs
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_lisp/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/realsense2_camera_generate_messages_cpp.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/realsense2_camera_generate_messages_cpp.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/realsense2_camera_generate_messages_cpp.dir/rule
 .PHONY : stingray_camera/CMakeFiles/realsense2_camera_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -614,12 +614,12 @@ realsense2_camera_generate_messages_cpp: stingray_camera/CMakeFiles/realsense2_c
 
 # fast build rule for target.
 realsense2_camera_generate_messages_cpp/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/realsense2_camera_generate_messages_cpp.dir/build.make stingray_camera/CMakeFiles/realsense2_camera_generate_messages_cpp.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/realsense2_camera_generate_messages_cpp.dir/build.make stingray_camera/CMakeFiles/realsense2_camera_generate_messages_cpp.dir/build
 .PHONY : realsense2_camera_generate_messages_cpp/fast
 
 # Convenience name for target.
 stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 .PHONY : stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -629,7 +629,7 @@ actionlib_msgs_generate_messages_nodejs: stingray_camera/CMakeFiles/actionlib_ms
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_nodejs/fast:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(MAKE) -f stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make stingray_camera/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 .PHONY : actionlib_msgs_generate_messages_nodejs/fast
 
 # Help Target
@@ -687,6 +687,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

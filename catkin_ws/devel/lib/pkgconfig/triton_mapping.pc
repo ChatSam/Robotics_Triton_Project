@@ -1,4 +1,4 @@
-prefix=/home/triton/cs603-final-project/catkin_ws/devel
+prefix=/home/triton/Robotics_Triton_Project/catkin_ws/devel
 
 Name: triton_mapping
 Description: Description of triton_mapping

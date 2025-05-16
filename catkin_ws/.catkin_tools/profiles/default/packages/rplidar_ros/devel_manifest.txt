@@ -1,7 +1,0 @@
-rplidar_ros
-/home/triton/stingray_docker/catkin_ws/devel/.private/rplidar_ros/cmake.lock /home/triton/stingray_docker/catkin_ws/devel/./cmake.lock
-/home/triton/stingray_docker/catkin_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient /home/triton/stingray_docker/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient
-/home/triton/stingray_docker/catkin_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode /home/triton/stingray_docker/catkin_ws/devel/lib/rplidar_ros/rplidarNode
-/home/triton/stingray_docker/catkin_ws/devel/.private/rplidar_ros/lib/pkgconfig/rplidar_ros.pc /home/triton/stingray_docker/catkin_ws/devel/lib/pkgconfig/rplidar_ros.pc
-/home/triton/stingray_docker/catkin_ws/devel/.private/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake /home/triton/stingray_docker/catkin_ws/devel/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
-/home/triton/stingray_docker/catkin_ws/devel/.private/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake /home/triton/stingray_docker/catkin_ws/devel/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake

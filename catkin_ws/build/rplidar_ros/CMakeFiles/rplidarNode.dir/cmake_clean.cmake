@@ -16,8 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o"
   "CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o"
   "CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o"
-  "/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode.pdb"
-  "/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode"
+  "/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode.pdb"
+  "/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode"
 )
 
 # Per-language clean rules from dependency scanning.

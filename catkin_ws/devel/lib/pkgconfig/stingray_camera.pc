@@ -1,4 +1,4 @@
-prefix=/home/triton/cs603-final-project/catkin_ws/devel
+prefix=/home/triton/Robotics_Triton_Project/catkin_ws/devel
 
 Name: stingray_camera
 Description: Description of stingray_camera

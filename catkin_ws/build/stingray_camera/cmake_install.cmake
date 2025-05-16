@@ -1,8 +1,8 @@
-# Install script for directory: /home/triton/cs603-final-project/catkin_ws/src/stingray_camera
+# Install script for directory: /home/triton/Robotics_Triton_Project/catkin_ws/src/stingray_camera
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/triton/cs603-final-project/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/triton/Robotics_Triton_Project/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/triton/cs603-final-project/catkin_ws/build/stingray_camera/catkin_generated/installspace/stingray_camera.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/triton/Robotics_Triton_Project/catkin_ws/build/stingray_camera/catkin_generated/installspace/stingray_camera.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stingray_camera/cmake" TYPE FILE FILES
-    "/home/triton/cs603-final-project/catkin_ws/build/stingray_camera/catkin_generated/installspace/stingray_cameraConfig.cmake"
-    "/home/triton/cs603-final-project/catkin_ws/build/stingray_camera/catkin_generated/installspace/stingray_cameraConfig-version.cmake"
+    "/home/triton/Robotics_Triton_Project/catkin_ws/build/stingray_camera/catkin_generated/installspace/stingray_cameraConfig.cmake"
+    "/home/triton/Robotics_Triton_Project/catkin_ws/build/stingray_camera/catkin_generated/installspace/stingray_cameraConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stingray_camera" TYPE FILE FILES "/home/triton/cs603-final-project/catkin_ws/src/stingray_camera/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stingray_camera" TYPE FILE FILES "/home/triton/Robotics_Triton_Project/catkin_ws/src/stingray_camera/package.xml")
 endif()
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
-  "/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient.pdb"
-  "/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient"
+  "/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient.pdb"
+  "/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient"
 )
 
 # Per-language clean rules from dependency scanning.

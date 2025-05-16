@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/triton/cs603-final-project/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/triton/Robotics_Triton_Project/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/triton/cs603-final-project/catkin_ws/build
+CMAKE_BINARY_DIR = /home/triton/Robotics_Triton_Project/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include rplidar_ros/CMakeFiles/rplidarNode.dir/depend.make
@@ -58,17 +58,17 @@ include rplidar_ros/CMakeFiles/rplidarNode.dir/progress.make
 include rplidar_ros/CMakeFiles/rplidarNode.dir/flags.make
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.o: rplidar_ros/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.o: /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/src/node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/cs603-final-project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.o"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/src/node.cpp.o -c /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/src/node.cpp
+rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.o: /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/src/node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.o"
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/src/node.cpp.o -c /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/src/node.cpp
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/src/node.cpp.i"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/src/node.cpp > CMakeFiles/rplidarNode.dir/src/node.cpp.i
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/src/node.cpp > CMakeFiles/rplidarNode.dir/src/node.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/src/node.cpp.s"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/src/node.cpp -o CMakeFiles/rplidarNode.dir/src/node.cpp.s
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/src/node.cpp -o CMakeFiles/rplidarNode.dir/src/node.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.o.requires:
 
@@ -82,17 +82,17 @@ rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.o.provides.build: rplidar_ro
 
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o: rplidar_ros/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o: /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/cs603-final-project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o -c /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp
+rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o: /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o"
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o -c /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.i"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp > CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.i
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp > CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.s"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.s
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o.requires:
 
@@ -106,17 +106,17 @@ rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o.provi
 
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o: rplidar_ros/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o: /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/cs603-final-project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o -c /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp
+rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o: /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o"
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o -c /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.i"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp > CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.i
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp > CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.s"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.s
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o.requires:
 
@@ -130,17 +130,17 @@ rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o.provi
 
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o: rplidar_ros/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o: /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/cs603-final-project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o -c /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/timer.cpp
+rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o: /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o"
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o -c /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/timer.cpp
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.i"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/timer.cpp > CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.i
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/timer.cpp > CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.s"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/timer.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.s
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/arch/linux/timer.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o.requires:
 
@@ -154,17 +154,17 @@ rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o.provides.b
 
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.o: rplidar_ros/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.o: /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/cs603-final-project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.o"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.o -c /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp
+rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.o: /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.o"
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.o -c /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.i"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp > CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.i
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp > CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.s"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.s
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.o.requires:
 
@@ -178,17 +178,17 @@ rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.o.p
 
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o: rplidar_ros/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o: /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/cs603-final-project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o -c /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp
+rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o: /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o"
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o -c /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.i"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp > CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.i
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp > CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.s"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.s
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o.requires:
 
@@ -202,17 +202,17 @@ rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_cap
 
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o: rplidar_ros/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o: /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/cs603-final-project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o -c /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp
+rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o: /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o"
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o -c /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.i"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp > CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.i
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp > CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.s"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.s
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o.requires:
 
@@ -226,17 +226,17 @@ rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqn
 
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o: rplidar_ros/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o: /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/cs603-final-project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o -c /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp
+rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o: /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o"
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o -c /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.i"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp > CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.i
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp > CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.s"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.s
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o.requires:
 
@@ -250,17 +250,17 @@ rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_nor
 
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o: rplidar_ros/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o: /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/hal/thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/cs603-final-project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o -c /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/hal/thread.cpp
+rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o: /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/hal/thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o"
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o -c /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/hal/thread.cpp
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.i"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/hal/thread.cpp > CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.i
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/hal/thread.cpp > CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.s"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/hal/thread.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.s
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/hal/thread.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o.requires:
 
@@ -274,17 +274,17 @@ rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o.provides.build: 
 
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o: rplidar_ros/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o: /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/cs603-final-project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o -c /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp
+rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o: /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o"
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o -c /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.i"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp > CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.i
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp > CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.s"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.s
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o.requires:
 
@@ -298,17 +298,17 @@ rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o.provides.bui
 
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.o: rplidar_ros/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.o: /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_async_transceiver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/cs603-final-project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.o"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.o -c /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_async_transceiver.cpp
+rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.o: /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_async_transceiver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.o"
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.o -c /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_async_transceiver.cpp
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.i"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_async_transceiver.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.i
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_async_transceiver.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.s"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_async_transceiver.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.s
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_async_transceiver.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.o.requires:
 
@@ -322,17 +322,17 @@ rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.o.provid
 
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o: rplidar_ros/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o: /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_crc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/cs603-final-project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o -c /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_crc.cpp
+rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o: /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_crc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o"
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o -c /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_crc.cpp
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.i"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_crc.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.i
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_crc.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.s"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_crc.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.s
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_crc.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o.requires:
 
@@ -346,17 +346,17 @@ rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o.provides.build: rpli
 
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o: rplidar_ros/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o: /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/cs603-final-project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o -c /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp
+rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o: /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o"
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o -c /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.i"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.i
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.s"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.s
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o.requires:
 
@@ -370,17 +370,17 @@ rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o.provides.bu
 
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.o: rplidar_ros/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.o: /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/cs603-final-project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.o"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.o -c /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp
+rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.o: /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.o"
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.o -c /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.i"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.i
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.s"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.s
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.o.requires:
 
@@ -394,17 +394,17 @@ rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.o.prov
 
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o: rplidar_ros/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o: /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/cs603-final-project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o -c /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp
+rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o: /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o"
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o -c /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.i"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.i
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.s"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.s
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o.requires:
 
@@ -418,17 +418,17 @@ rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o.provides.
 
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o: rplidar_ros/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o: /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/cs603-final-project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o -c /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp
+rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o: /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o"
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o -c /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.i"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.i
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.s"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.s
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o.requires:
 
@@ -442,17 +442,17 @@ rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o.provides.bui
 
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o: rplidar_ros/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o: /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/cs603-final-project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o -c /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp
+rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o: /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o"
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o -c /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.i"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.i
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.s"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.s
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o.requires:
 
@@ -488,48 +488,48 @@ rplidarNode_OBJECTS = \
 # External object files for target rplidarNode
 rplidarNode_EXTERNAL_OBJECTS =
 
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.o
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.o
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.o
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.o
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/build.make
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/melodic/lib/libroscpp.so
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/melodic/lib/librosconsole.so
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/liblog4cxx.so
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_regex.so
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/melodic/lib/librostime.so
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/melodic/lib/libcpp_common.so
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_system.so
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_thread.so
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_chrono.so
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_date_time.so
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_atomic.so
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libpthread.so
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.0.4
-/home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/triton/cs603-final-project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable /home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode"
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rplidarNode.dir/link.txt --verbose=$(VERBOSE)
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.o
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.o
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.o
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.o
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/build.make
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/melodic/lib/libroscpp.so
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/melodic/lib/librosconsole.so
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/liblog4cxx.so
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_regex.so
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/melodic/lib/librostime.so
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/melodic/lib/libcpp_common.so
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_system.so
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_thread.so
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_chrono.so
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_date_time.so
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_atomic.so
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libpthread.so
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.0.4
+/home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/triton/Robotics_Triton_Project/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable /home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode"
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rplidarNode.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-rplidar_ros/CMakeFiles/rplidarNode.dir/build: /home/triton/cs603-final-project/catkin_ws/devel/lib/rplidar_ros/rplidarNode
+rplidar_ros/CMakeFiles/rplidarNode.dir/build: /home/triton/Robotics_Triton_Project/catkin_ws/devel/lib/rplidar_ros/rplidarNode
 
 .PHONY : rplidar_ros/CMakeFiles/rplidarNode.dir/build
 
@@ -554,10 +554,10 @@ rplidar_ros/CMakeFiles/rplidarNode.dir/requires: rplidar_ros/CMakeFiles/rplidarN
 .PHONY : rplidar_ros/CMakeFiles/rplidarNode.dir/requires
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/clean:
-	cd /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros && $(CMAKE_COMMAND) -P CMakeFiles/rplidarNode.dir/cmake_clean.cmake
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros && $(CMAKE_COMMAND) -P CMakeFiles/rplidarNode.dir/cmake_clean.cmake
 .PHONY : rplidar_ros/CMakeFiles/rplidarNode.dir/clean
 
 rplidar_ros/CMakeFiles/rplidarNode.dir/depend:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/triton/cs603-final-project/catkin_ws/src /home/triton/cs603-final-project/catkin_ws/src/rplidar_ros /home/triton/cs603-final-project/catkin_ws/build /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros /home/triton/cs603-final-project/catkin_ws/build/rplidar_ros/CMakeFiles/rplidarNode.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/triton/Robotics_Triton_Project/catkin_ws/src /home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros /home/triton/Robotics_Triton_Project/catkin_ws/build /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros /home/triton/Robotics_Triton_Project/catkin_ws/build/rplidar_ros/CMakeFiles/rplidarNode.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rplidar_ros/CMakeFiles/rplidarNode.dir/depend
 

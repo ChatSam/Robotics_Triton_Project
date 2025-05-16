@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/src/client.cpp
+/home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/src/client.cpp
 ros/ros.h
-/home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/src/ros/ros.h
+/home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/src/ros/ros.h
 sensor_msgs/LaserScan.h
-/home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/src/sensor_msgs/LaserScan.h
+/home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/src/sensor_msgs/LaserScan.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

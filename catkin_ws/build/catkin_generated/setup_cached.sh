@@ -7,4 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/triton/cs603-final-project/catkin_ws/build'
+export LD_LIBRARY_PATH='/opt/ros/melodic/lib:/usr/local/lib:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64'
+export PKG_CONFIG_PATH='/opt/ros/melodic/lib/pkgconfig'
+export PWD='/home/triton/Robotics_Triton_Project/catkin_ws/build'
+export ROS_PACKAGE_PATH='/home/triton/Robotics_Triton_Project/catkin_ws/src:/opt/ros/melodic/share'

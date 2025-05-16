@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/triton/cs603-final-project/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/triton/Robotics_Triton_Project/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/triton/cs603-final-project/catkin_ws/build
+CMAKE_BINARY_DIR = /home/triton/Robotics_Triton_Project/catkin_ws/build
 
 # Utility rule file for nav_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ stingray_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build: nav_msgs_ge
 .PHONY : stingray_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
 
 stingray_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/clean:
-	cd /home/triton/cs603-final-project/catkin_ws/build/stingray_camera && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build/stingray_camera && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : stingray_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/clean
 
 stingray_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/depend:
-	cd /home/triton/cs603-final-project/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/triton/cs603-final-project/catkin_ws/src /home/triton/cs603-final-project/catkin_ws/src/stingray_camera /home/triton/cs603-final-project/catkin_ws/build /home/triton/cs603-final-project/catkin_ws/build/stingray_camera /home/triton/cs603-final-project/catkin_ws/build/stingray_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/triton/Robotics_Triton_Project/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/triton/Robotics_Triton_Project/catkin_ws/src /home/triton/Robotics_Triton_Project/catkin_ws/src/stingray_camera /home/triton/Robotics_Triton_Project/catkin_ws/build /home/triton/Robotics_Triton_Project/catkin_ws/build/stingray_camera /home/triton/Robotics_Triton_Project/catkin_ws/build/stingray_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : stingray_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/depend
 

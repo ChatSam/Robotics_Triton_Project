@@ -23,6 +23,7 @@ RUN apt-get install -y \
   ros-noetic-librealsense2 \
   ros-noetic-realsense2-camera \
   ros-noetic-realsense2-description \
+  ros-noetic-cv-bridge \
   tmux \
   python3-pip
 

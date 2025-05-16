@@ -1,8 +1,8 @@
-# Install script for directory: /home/triton/cs603-final-project/catkin_ws/src/triton_mapping
+# Install script for directory: /home/triton/Robotics_Triton_Project/catkin_ws/src/triton_mapping
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/triton/cs603-final-project/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/triton/Robotics_Triton_Project/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/triton/cs603-final-project/catkin_ws/build/triton_mapping/catkin_generated/installspace/triton_mapping.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/triton/Robotics_Triton_Project/catkin_ws/build/triton_mapping/catkin_generated/installspace/triton_mapping.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/triton_mapping/cmake" TYPE FILE FILES
-    "/home/triton/cs603-final-project/catkin_ws/build/triton_mapping/catkin_generated/installspace/triton_mappingConfig.cmake"
-    "/home/triton/cs603-final-project/catkin_ws/build/triton_mapping/catkin_generated/installspace/triton_mappingConfig-version.cmake"
+    "/home/triton/Robotics_Triton_Project/catkin_ws/build/triton_mapping/catkin_generated/installspace/triton_mappingConfig.cmake"
+    "/home/triton/Robotics_Triton_Project/catkin_ws/build/triton_mapping/catkin_generated/installspace/triton_mappingConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/triton_mapping" TYPE FILE FILES "/home/triton/cs603-final-project/catkin_ws/src/triton_mapping/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/triton_mapping" TYPE FILE FILES "/home/triton/Robotics_Triton_Project/catkin_ws/src/triton_mapping/package.xml")
 endif()
 

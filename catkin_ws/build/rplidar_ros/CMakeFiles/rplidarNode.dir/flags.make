@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11  -O3 -DNDEBUG
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"rplidar_ros\"
 
-CXX_INCLUDES = -I/home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/./sdk/include -I/home/triton/cs603-final-project/catkin_ws/src/rplidar_ros/./sdk/src -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/./sdk/include -I/home/triton/Robotics_Triton_Project/catkin_ws/src/rplidar_ros/./sdk/src -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 
